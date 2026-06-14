@@ -1,53 +1,192 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-
-    <title>Brasil-2026</title>
+    <title>Seleção Brasileira</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
-    <nav>
-        <a href="Jogadores">Jogadores</a>
-    </nav>
 
-    <header>
-    
-    <div class="letraB">
-        <h1>B</h1>
-    </div>
-    <div class="letraR">
-        <h1>R</h1>
-    </div>
-    <div class="letraA">
-        <h1>A</h1>
-    </div>
-    <div class="letraS">
-        <h1>S</h1>
-    </div>
-    <div class="letraI">
-        <h1>I</h1>
-    </div>
-    <div class="letraL">
-        <h1>L</h1>
-    </div>
+    <header class="cabecalho">
+        <nav class="menu">
+            <h1>Seleção Brasileira</h1>
 
+            <ul>
+                <li><a href="#historia">História</a></li>
+                <li><a href="#jogadores">Jogadores</a></li>
+                <li><a href="#jogos">Jogos</a></li>
+            </ul>
+        </nav>
+
+        <section class="hero">
+            <div class="hero-texto">
+                <p class="tag">Brasil na Copa do Mundo 2026</p>
+                <h2>O país do futebol em busca do hexa</h2>
+                <p>
+                    A Seleção Brasileira chega à Copa com tradição, camisa pesada
+                    e uma história marcada por grandes craques.
+                </p>
+                <a href="#jogos" class="botao">Ver jogos</a>
+            </div>
+
+            <div class="hero-card">
+                <h3>Grupo C</h3>
+                <p>Brasil</p>
+                <p>Marrocos</p>
+                <p>Haiti</p>
+                <p>Escócia</p>
+            </div>
+        </section>
     </header>
 
     <main>
-        
-        <h2>aoaoaoaoaoaoa</h2>
 
+        <section id="historia" class="secao">
+            <h2>Resumo da história</h2>
 
+            <div class="historia-caixa">
+                <p>
+                    A Seleção Brasileira é uma das maiores equipes da história do futebol.
+                    O Brasil é pentacampeão mundial, com títulos em 1958, 1962, 1970,
+                    1994 e 2002.
+                </p>
 
+                <p>
+                    Grandes nomes como Pelé, Garrincha, Romário, Ronaldo, Ronaldinho,
+                    Kaká e Neymar ajudaram a construir a fama da camisa amarela.
+                    A Seleção ficou conhecida pelo futebol ofensivo, criativo e técnico.
+                </p>
 
+                <p>
+                    Agora, na Copa do Mundo de 2026, o Brasil busca conquistar o sexto
+                    título mundial, conhecido como o hexa.
+                </p>
+            </div>
 
+            <div class="titulos">
+                <div>
+                    <h3>5</h3>
+                    <p>Títulos mundiais</p>
+                </div>
+
+                <div>
+                    <h3>1958</h3>
+                    <p>Primeira Copa</p>
+                </div>
+
+                <div>
+                    <h3>2002</h3>
+                    <p>Última Copa vencida</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="jogadores" class="secao fundo-verde">
+            <h2>Jogadores convocados</h2>
+            <p class="subtitulo">Lista dos 26 jogadores da Seleção Brasileira para a Copa.</p>
+
+            <h3 class="posicao">Goleiros</h3>
+            <div class="cards">
+                <div class="card">Alisson<br><span>Liverpool</span></div>
+                <div class="card">Ederson<br><span>Fenerbahçe</span></div>
+                <div class="card">Weverton<br><span>Grêmio</span></div>
+            </div>
+
+            <h3 class="posicao">Defensores</h3>
+            <div class="cards">
+                <div class="card">Alex Sandro<br><span>Flamengo</span></div>
+                <div class="card">Bremer<br><span>Juventus</span></div>
+                <div class="card">Danilo<br><span>Flamengo</span></div>
+                <div class="card">Douglas Santos<br><span>Zenit</span></div>
+                <div class="card">Gabriel Magalhães<br><span>Arsenal</span></div>
+                <div class="card">Ibañez<br><span>Al-Ahli</span></div>
+                <div class="card">Léo Pereira<br><span>Flamengo</span></div>
+                <div class="card">Marquinhos<br><span>PSG</span></div>
+            </div>
+
+            <h3 class="posicao">Meio-campistas</h3>
+            <div class="cards">
+                <div class="card">Bruno Guimarães<br><span>Newcastle</span></div>
+                <div class="card">Casemiro<br><span>Manchester United</span></div>
+                <div class="card">Danilo Santos<br><span>Botafogo</span></div>
+                <div class="card">Fabinho<br><span>Al-Ittihad</span></div>
+                <div class="card">Lucas Paquetá<br><span>Flamengo</span></div>
+                <div class="card">Éderson<br><span>Atalanta</span></div>
+            </div>
+
+            <h3 class="posicao">Atacantes</h3>
+            <div class="cards">
+                <div class="card">Endrick<br><span>Lyon</span></div>
+                <div class="card">Gabriel Martinelli<br><span>Arsenal</span></div>
+                <div class="card">Igor Thiago<br><span>Brentford</span></div>
+                <div class="card">Luiz Henrique<br><span>Zenit</span></div>
+                <div class="card">Matheus Cunha<br><span>Manchester United</span></div>
+                <div class="card destaque">Neymar<br><span>Santos</span></div>
+                <div class="card destaque">Raphinha<br><span>Barcelona</span></div>
+                <div class="card">Rayan<br><span>Bournemouth</span></div>
+                <div class="card destaque">Vini Jr.<br><span>Real Madrid</span></div>
+            </div>
+        </section>
+
+        <section id="jogos" class="secao">
+            <h2>Jogos do Brasil na Copa</h2>
+            <p class="subtitulo">Fase de grupos da Copa do Mundo 2026.</p>
+
+            <div class="tabela-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Data</th>
+                            <th>Horário</th>
+                            <th>Jogo</th>
+                            <th>Local</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>13/06/2026</td>
+                            <td>19h</td>
+                            <td>Brasil x Marrocos</td>
+                            <td>Nova Jersey</td>
+                            <td>Empate 1x1</td>
+                        </tr>
+
+                        <tr>
+                            <td>19/06/2026</td>
+                            <td>21h30</td>
+                            <td>Brasil x Haiti</td>
+                            <td>Filadélfia</td>
+                            <td>Próximo jogo</td>
+                        </tr>
+
+                        <tr>
+                            <td>24/06/2026</td>
+                            <td>19h</td>
+                            <td>Brasil x Escócia</td>
+                            <td>Miami</td>
+                            <td>Agendado</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="secao chamada">
+            <h2>Rumo ao Hexa</h2>
+            <p>
+                A torcida brasileira espera uma campanha forte.
+                Cada jogo será importante para manter vivo o sonho do sexto título mundial.
+            </p>
+        </section>
 
     </main>
 
-
-
+    <footer>
+        <p>Site criado para atividade escolar sobre a Seleção Brasileira.</p>
+        <p>Fontes: FIFA, CBF e ge.</p>
+    </footer>
 
 </body>
 </html>

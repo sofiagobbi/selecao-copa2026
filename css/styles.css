@@ -257,34 +257,42 @@ footer {
     line-height: 1.6;
 }
 
-/* Responsivo para celular */
-@media (max-width: 768px) {
-    .menu {
-        flex-direction: column;
-        gap: 20px;
-    }
+.cards-jogadores {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
 
-    .menu ul {
-        flex-direction: column;
-        text-align: center;
-        gap: 12px;
-    }
+.jogador {
+    background-color: white;
+    color: #102a22;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+    transition: 0.3s;
+}
 
-    .hero {
-        flex-direction: column;
-        margin-top: 70px;
-        text-align: center;
-    }
+.jogador:hover {
+    transform: translateY(-5px);
+}
 
-    .hero h2 {
-        font-size: 38px;
-    }
+.jogador img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    background-color: #ddd;
+}
 
-    .hero-card {
-        width: 100%;
-    }
+.jogador h3 {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #002776;
+}
 
-    .titulos {
-        flex-direction: column;
-    }
+.jogador p {
+    margin: 8px 0 18px;
+    color: #555;
+    font-weight: bold;
 }

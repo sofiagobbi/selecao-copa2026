@@ -296,3 +296,44 @@ footer {
     color: #555;
     font-weight: bold;
 }
+
+.cards-capeonatos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.capeonatos {
+    background-color: white;
+    color: #102a22;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+    transition: 0.3s;
+}
+
+.capeonatos:hover {
+    transform: translateY(-5px);
+}
+
+.capeonatos img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    background-color: #ddd;
+}
+
+.capeonatos h3 {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #002776;
+}
+
+.capeonatos p {
+    margin: 8px 0 18px;
+    color: #555;
+    font-weight: bold;
+}

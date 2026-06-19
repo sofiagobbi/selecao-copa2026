@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Seleção Brasileira</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/forms.css">
+
 </head>
 <body>
 
@@ -237,6 +239,30 @@
                     </tbody>
                 </table>
             </div>
+        </section>
+
+
+        <section class="apoio">
+            <h2>🇧🇷 Mural de Apoio à Seleção Brasileira</h2>
+            <p>
+                Deixe sua mensagem para incentivar a Seleção Brasileira
+                rumo ao Hexacampeonato!
+            </p>
+
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Digite seu nome" required>
+
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" placeholder="Digite sua cidade">
+
+                <label for="mensagem">Mensagem de apoio:</label>
+                <textarea id="mensagem" rows="6"
+                    placeholder="Escreva sua mensagem para a Seleção Brasileira..."
+                    required></textarea>
+
+                <button type="submit">Enviar Mensagem </button>
+            </form>
         </section>
 
         <section class="secao chamada">
